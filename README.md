@@ -21,4 +21,6 @@ Amazon Babbel Assignment
 ```
 
 ## Test Execution Report
-- 
+- Open Target Folder >> Surefire-reports
+- Search for emailable-report.html
+- Right click on it and Open with Chrome
