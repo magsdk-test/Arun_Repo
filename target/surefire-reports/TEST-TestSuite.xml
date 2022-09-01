@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="760.056" tests="30" errors="0" skipped="0" failures="8">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="webdriver.chrome.driver" value="/Users/ts-arun.d.kumar/.cache/selenium/chromedriver/mac64/105.0.5195.52/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ts-arun.d.kumar/Desktop/BabbelTest/target/test-classes:/Users/ts-arun.d.kumar/Desktop/BabbelTest/target/classes:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ts-arun.d.kumar/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/ts-arun.d.kumar/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ts-arun.d.kumar/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/ts-arun.d.kumar/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/ts-arun.d.kumar/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/ts-arun.d.kumar/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/ts-arun.d.kumar/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ts-arun.d.kumar/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/ts-arun.d.kumar/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/ts-arun.d.kumar/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/ts-arun.d.kumar/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.0/webdrivermanager-5.3.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ts-arun.d.kumar/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/ts-arun.d.kumar/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/ts-arun.d.kumar/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/ts-arun.d.kumar/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/ts-arun.d.kumar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/ts-arun.d.kumar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/ts-arun.d.kumar/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/ts-arun.d.kumar/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/ts-arun.d.kumar/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/ts-arun.d.kumar/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/ts-arun.d.kumar/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/ts-arun.d.kumar/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/ts-arun.d.kumar/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/ts-arun.d.kumar/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/Users/ts-arun.d.kumar/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/Users/ts-arun.d.kumar/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/Users/ts-arun.d.kumar/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/ts-arun.d.kumar/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/ts-arun.d.kumar/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/poi/poi-scratchpad/3.9/poi-scratchpad-3.9.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/poi/ooxml-schemas/1.1/ooxml-schemas-1.1.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/Users/ts-arun.d.kumar/.m2/repository/log4j/log4j/1.2.8/log4j-1.2.8.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/Users/ts-arun.d.kumar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/ts-arun.d.kumar/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/ts-arun.d.kumar/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/ts-arun.d.kumar/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/ts-arun.d.kumar/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/ts-arun.d.kumar/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/ts-arun.d.kumar/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/ts-arun.d.kumar/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Tokyo"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="JP"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ts-arun.d.kumar/Desktop/BabbelTest/target/surefire/surefirebooter7459080277339165450.jar /Users/ts-arun.d.kumar/Desktop/BabbelTest/target/surefire 2022-09-01T22-47-17_262-jvmRun1 surefire11442361452836675975tmp surefire_010876644274323316355tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ts-arun.d.kumar/Desktop/BabbelTest/target/test-classes:/Users/ts-arun.d.kumar/Desktop/BabbelTest/target/classes:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/ts-arun.d.kumar/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ts-arun.d.kumar/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/ts-arun.d.kumar/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ts-arun.d.kumar/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/ts-arun.d.kumar/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/ts-arun.d.kumar/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/ts-arun.d.kumar/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/ts-arun.d.kumar/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ts-arun.d.kumar/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/ts-arun.d.kumar/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/ts-arun.d.kumar/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/ts-arun.d.kumar/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.0/webdrivermanager-5.3.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ts-arun.d.kumar/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/ts-arun.d.kumar/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/ts-arun.d.kumar/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/ts-arun.d.kumar/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/ts-arun.d.kumar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/ts-arun.d.kumar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/ts-arun.d.kumar/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/ts-arun.d.kumar/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/ts-arun.d.kumar/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/ts-arun.d.kumar/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/ts-arun.d.kumar/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/ts-arun.d.kumar/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/ts-arun.d.kumar/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/ts-arun.d.kumar/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/Users/ts-arun.d.kumar/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/Users/ts-arun.d.kumar/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/Users/ts-arun.d.kumar/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/ts-arun.d.kumar/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/ts-arun.d.kumar/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/poi/poi-scratchpad/3.9/poi-scratchpad-3.9.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/poi/ooxml-schemas/1.1/ooxml-schemas-1.1.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/Users/ts-arun.d.kumar/.m2/repository/log4j/log4j/1.2.8/log4j-1.2.8.jar:/Users/ts-arun.d.kumar/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/Users/ts-arun.d.kumar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/ts-arun.d.kumar/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/ts-arun.d.kumar/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/ts-arun.d.kumar/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/ts-arun.d.kumar/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/ts-arun.d.kumar/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/ts-arun.d.kumar/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/ts-arun.d.kumar/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ts-arun.d.kumar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ts-arun.d.kumar/Desktop/BabbelTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/ts-arun.d.kumar/Desktop/BabbelTest/target/surefire/surefirebooter7459080277339165450.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="user.name" value="ts-arun.d.kumar"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/ts-arun.d.kumar/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/5n/dg2hg5s131z65fkns54fcls4pnnw_1/T/"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="/Users/ts-arun.d.kumar/Desktop/BabbelTest"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/ts-arun.d.kumar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](1)" classname="com.amazon.Tests.HomePageTest" time="17.433">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 33647
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:47:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](2)" classname="com.amazon.Tests.HomePageTest" time="20.596">
+    <system-out><![CDATA[Size of list = 21
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 12287
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:47:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](3)" classname="com.amazon.Tests.HomePageTest" time="14.805">
+    <failure message="timeout: Timed out receiving message from renderer: 10.000&#10;  (Session info: chrome=105.0.5195.52)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;P63653&apos;, ip: &apos;2400:4051:240:9500:4d6f:4dd5:735:59a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:53251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2b854f43298beb660d4d53acf4d6f4d3" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=105.0.5195.52)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'P63653', ip: '2400:4051:240:9500:4d6f:4dd5:735:59a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:53251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b854f43298beb660d4d53acf4d6f4d3
+	at com.amazon.Tests.HomePageTest.verifySearchBox(HomePageTest.java:49)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 19965
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:48:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1662040109.403][SEVERE]: Timed out receiving message from renderer: 10.000
+[1662040109.408][SEVERE]: Timed out receiving message from renderer: 10.000
+Sep 01, 2022 10:48:29 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '500' -> incorrect JSON status mapping for 'timeout' (408 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](4)" classname="com.amazon.Tests.HomePageTest" time="16.451">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 3200
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:48:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](5)" classname="com.amazon.Tests.HomePageTest" time="15.416">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 9148
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:48:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](6)" classname="com.amazon.Tests.HomePageTest" time="16.724">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 20531
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:49:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](7)" classname="com.amazon.Tests.HomePageTest" time="39.003">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;add-to-cart-button&apos;]&quot;}&#10;  (Session info: chrome=105.0.5195.52)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;P63653&apos;, ip: &apos;2400:4051:240:9500:4d6f:4dd5:735:59a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:53906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: bfb5581b1bfebbc68cb4024b714d2acc&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;add-to-cart-button&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='add-to-cart-button']"}
+  (Session info: chrome=105.0.5195.52)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'P63653', ip: '2400:4051:240:9500:4d6f:4dd5:735:59a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:53906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bfb5581b1bfebbc68cb4024b714d2acc
+*** Element info: {Using=xpath, value=//input[@id='add-to-cart-button']}
+	at com.amazon.Tests.HomePageTest.verifySearchBox(HomePageTest.java:51)
+]]></failure>
+    <system-out><![CDATA[Size of list = 19
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 41971
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:49:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](8)" classname="com.amazon.Tests.HomePageTest" time="18.958">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 20247
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:50:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](9)" classname="com.amazon.Tests.HomePageTest" time="16.645">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 25404
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:50:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](10)" classname="com.amazon.Tests.HomePageTest" time="15.853">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 2401
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:51:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](11)" classname="com.amazon.Tests.HomePageTest" time="20.292">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 15039
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:51:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](12)" classname="com.amazon.Tests.HomePageTest" time="18.107">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 35249
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:52:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](13)" classname="com.amazon.Tests.HomePageTest" time="16.752">
+    <system-out><![CDATA[Size of list = 21
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 23139
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:52:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](14)" classname="com.amazon.Tests.HomePageTest" time="14.999">
+    <system-out><![CDATA[Size of list = 21
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 1114
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:52:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](15)" classname="com.amazon.Tests.HomePageTest" time="11.72">
+    <failure message="timeout: Timed out receiving message from renderer: 10.000&#10;  (Session info: chrome=105.0.5195.52)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;P63653&apos;, ip: &apos;2400:4051:240:9500:4d6f:4dd5:735:59a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:54796}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5c9dfb2ae3f4cd48f17a9439fe15372d" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=105.0.5195.52)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'P63653', ip: '2400:4051:240:9500:4d6f:4dd5:735:59a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:54796}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c9dfb2ae3f4cd48f17a9439fe15372d
+	at com.amazon.Tests.HomePageTest.verifySearchBox(HomePageTest.java:49)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 39635
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:53:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1662040404.031][SEVERE]: Timed out receiving message from renderer: 10.000
+[1662040404.032][SEVERE]: Timed out receiving message from renderer: 10.000
+Sep 01, 2022 10:53:24 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '500' -> incorrect JSON status mapping for 'timeout' (408 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](16)" classname="com.amazon.Tests.HomePageTest" time="21.607">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 28605
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:53:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](17)" classname="com.amazon.Tests.HomePageTest" time="14.193">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 17110
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:53:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](18)" classname="com.amazon.Tests.HomePageTest" time="22.056">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 21902
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:54:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](19)" classname="com.amazon.Tests.HomePageTest" time="16.639">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 18334
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:54:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](20)" classname="com.amazon.Tests.HomePageTest" time="37.808">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;add-to-cart-button&apos;]&quot;}&#10;  (Session info: chrome=105.0.5195.52)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;P63653&apos;, ip: &apos;2400:4051:240:9500:4d6f:4dd5:735:59a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:55189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d6e27d0ccb46d7701c85e661673fa0e5&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;add-to-cart-button&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='add-to-cart-button']"}
+  (Session info: chrome=105.0.5195.52)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'P63653', ip: '2400:4051:240:9500:4d6f:4dd5:735:59a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:55189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d6e27d0ccb46d7701c85e661673fa0e5
+*** Element info: {Using=xpath, value=//input[@id='add-to-cart-button']}
+	at com.amazon.Tests.HomePageTest.verifySearchBox(HomePageTest.java:51)
+]]></failure>
+    <system-out><![CDATA[Size of list = 17
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 31466
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:55:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](21)" classname="com.amazon.Tests.HomePageTest" time="16.917">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 22463
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:55:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](22)" classname="com.amazon.Tests.HomePageTest" time="15.473">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 1550
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:56:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](23)" classname="com.amazon.Tests.HomePageTest" time="22.611">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 29949
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:56:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](24)" classname="com.amazon.Tests.HomePageTest" time="17.252">
+    <system-out><![CDATA[Size of list = 21
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 32250
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:57:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](25)" classname="com.amazon.Tests.HomePageTest" time="19.325">
+    <system-out><![CDATA[Size of list = 20
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 39995
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:57:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](26)" classname="com.amazon.Tests.HomePageTest" time="13.953">
+    <failure message="timeout: Timed out receiving message from renderer: 10.000&#10;  (Session info: chrome=105.0.5195.52)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;P63653&apos;, ip: &apos;2400:4051:240:9500:4d6f:4dd5:735:59a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:55732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d8daa1ba4646c53c3aa807333f7db92c" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=105.0.5195.52)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'P63653', ip: '2400:4051:240:9500:4d6f:4dd5:735:59a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:55732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d8daa1ba4646c53c3aa807333f7db92c
+	at com.amazon.Tests.HomePageTest.verifySearchBox(HomePageTest.java:50)
+]]></failure>
+    <system-out><![CDATA[Size of list = 20
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 41866
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:57:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1662040689.125][SEVERE]: Timed out receiving message from renderer: 10.000
+[1662040689.127][SEVERE]: Timed out receiving message from renderer: 10.000
+Sep 01, 2022 10:58:09 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '500' -> incorrect JSON status mapping for 'timeout' (408 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](27)" classname="com.amazon.Tests.HomePageTest" time="16.706">
+    <system-out><![CDATA[Size of list = 21
+The title name is: Enter the shipping address for this order
+The title name is: Enter the shipping address for this order
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 7397
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:58:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](28)" classname="com.amazon.Tests.HomePageTest" time="11.382">
+    <failure message="timeout: Timed out receiving message from renderer: 10.000&#10;  (Session info: chrome=105.0.5195.52)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;P63653&apos;, ip: &apos;2400:4051:240:9500:4d6f:4dd5:735:59a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:55871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c24382a9b9362435f37f4f13f7db3427" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=105.0.5195.52)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'P63653', ip: '2400:4051:240:9500:4d6f:4dd5:735:59a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:55871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c24382a9b9362435f37f4f13f7db3427
+	at com.amazon.Tests.HomePageTest.verifySearchBox(HomePageTest.java:49)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 28460
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:58:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1662040729.163][SEVERE]: Timed out receiving message from renderer: 10.000
+[1662040729.164][SEVERE]: Timed out receiving message from renderer: 10.000
+Sep 01, 2022 10:58:49 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '500' -> incorrect JSON status mapping for 'timeout' (408 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](29)" classname="com.amazon.Tests.HomePageTest" time="15.146">
+    <failure message="timeout: Timed out receiving message from renderer: 10.000&#10;  (Session info: chrome=105.0.5195.52)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;P63653&apos;, ip: &apos;2400:4051:240:9500:4d6f:4dd5:735:59a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:55912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2c5597ed8fbbef50cd6c8e050d5adeeb" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=105.0.5195.52)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'P63653', ip: '2400:4051:240:9500:4d6f:4dd5:735:59a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:55912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c5597ed8fbbef50cd6c8e050d5adeeb
+	at com.amazon.Tests.HomePageTest.verifySearchBox(HomePageTest.java:50)
+]]></failure>
+    <system-out><![CDATA[Size of list = 20
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 37665
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:58:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1662040750.961][SEVERE]: Timed out receiving message from renderer: 10.000
+[1662040750.962][SEVERE]: Timed out receiving message from renderer: 10.000
+Sep 01, 2022 10:59:10 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '500' -> incorrect JSON status mapping for 'timeout' (408 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](30)" classname="com.amazon.Tests.HomePageTest" time="37.353">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;add-to-cart-button&apos;]&quot;}&#10;  (Session info: chrome=105.0.5195.52)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;P63653&apos;, ip: &apos;2400:4051:240:9500:4d6f:4dd5:735:59a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:55982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2aed96b2cb5ab090e26a33b431444b47&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;add-to-cart-button&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='add-to-cart-button']"}
+  (Session info: chrome=105.0.5195.52)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'P63653', ip: '2400:4051:240:9500:4d6f:4dd5:735:59a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:55982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2aed96b2cb5ab090e26a33b431444b47
+*** Element info: {Using=xpath, value=//input[@id='add-to-cart-button']}
+	at com.amazon.Tests.HomePageTest.verifySearchBox(HomePageTest.java:51)
+]]></failure>
+    <system-out><![CDATA[Size of list = 20
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 25931
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 01, 2022 10:59:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

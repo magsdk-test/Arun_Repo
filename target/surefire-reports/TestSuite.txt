@@ -1,0 +1,98 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 760.056 s <<< FAILURE! - in TestSuite
+com.amazon.Tests.HomePageTest.verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](3)  Time elapsed: 14.805 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=105.0.5195.52)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'P63653', ip: '2400:4051:240:9500:4d6f:4dd5:735:59a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:53251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b854f43298beb660d4d53acf4d6f4d3
+	at com.amazon.Tests.HomePageTest.verifySearchBox(HomePageTest.java:49)
+
+com.amazon.Tests.HomePageTest.verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](7)  Time elapsed: 39.003 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='add-to-cart-button']"}
+  (Session info: chrome=105.0.5195.52)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'P63653', ip: '2400:4051:240:9500:4d6f:4dd5:735:59a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:53906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bfb5581b1bfebbc68cb4024b714d2acc
+*** Element info: {Using=xpath, value=//input[@id='add-to-cart-button']}
+	at com.amazon.Tests.HomePageTest.verifySearchBox(HomePageTest.java:51)
+
+com.amazon.Tests.HomePageTest.verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](15)  Time elapsed: 11.72 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=105.0.5195.52)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'P63653', ip: '2400:4051:240:9500:4d6f:4dd5:735:59a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:54796}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c9dfb2ae3f4cd48f17a9439fe15372d
+	at com.amazon.Tests.HomePageTest.verifySearchBox(HomePageTest.java:49)
+
+com.amazon.Tests.HomePageTest.verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](20)  Time elapsed: 37.808 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='add-to-cart-button']"}
+  (Session info: chrome=105.0.5195.52)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'P63653', ip: '2400:4051:240:9500:4d6f:4dd5:735:59a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:55189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d6e27d0ccb46d7701c85e661673fa0e5
+*** Element info: {Using=xpath, value=//input[@id='add-to-cart-button']}
+	at com.amazon.Tests.HomePageTest.verifySearchBox(HomePageTest.java:51)
+
+com.amazon.Tests.HomePageTest.verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](26)  Time elapsed: 13.953 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=105.0.5195.52)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'P63653', ip: '2400:4051:240:9500:4d6f:4dd5:735:59a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:55732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d8daa1ba4646c53c3aa807333f7db92c
+	at com.amazon.Tests.HomePageTest.verifySearchBox(HomePageTest.java:50)
+
+com.amazon.Tests.HomePageTest.verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](28)  Time elapsed: 11.382 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=105.0.5195.52)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'P63653', ip: '2400:4051:240:9500:4d6f:4dd5:735:59a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:55871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c24382a9b9362435f37f4f13f7db3427
+	at com.amazon.Tests.HomePageTest.verifySearchBox(HomePageTest.java:49)
+
+com.amazon.Tests.HomePageTest.verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](29)  Time elapsed: 15.146 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=105.0.5195.52)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'P63653', ip: '2400:4051:240:9500:4d6f:4dd5:735:59a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:55912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c5597ed8fbbef50cd6c8e050d5adeeb
+	at com.amazon.Tests.HomePageTest.verifySearchBox(HomePageTest.java:50)
+
+com.amazon.Tests.HomePageTest.verifySearchBox[ntatthakur@gmail.com, 79aAA79@@](30)  Time elapsed: 37.353 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='add-to-cart-button']"}
+  (Session info: chrome=105.0.5195.52)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'P63653', ip: '2400:4051:240:9500:4d6f:4dd5:735:59a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5n/dg2hg5s131z...}, goog:chromeOptions: {debuggerAddress: localhost:55982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2aed96b2cb5ab090e26a33b431444b47
+*** Element info: {Using=xpath, value=//input[@id='add-to-cart-button']}
+	at com.amazon.Tests.HomePageTest.verifySearchBox(HomePageTest.java:51)
+
