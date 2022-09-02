@@ -24,10 +24,21 @@ public class LoginPage extends TestBase {
         PageFactory.initElements(driver, this);
     }
 
-    public void loginIntoAmazon(String email, String pass){
+    public void loginIntoAmazon(String email, String pass) throws InterruptedException {
         userEmail.sendKeys(email);
         continueLogin.click();
         userPass.sendKeys(pass);
         submitLogin.click();
+        if (captchaAuth.size()> 1){
+            userPass.sendKeys(pass);
+            System.out.println("The Captcha can not be automated. It is one of the limitation of selenium");
+            System.out.println("It needs to be handled manually.");
+            System.out.println("-----****---Please enter the shown captcha---****-----");
+            Thread.sleep(15000);
+        }
+        else
+        {
+            System.out.println("The captcha is not shown. Continuing Automated test..");
+        }        
     }
 }
