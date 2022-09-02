@@ -18,6 +18,9 @@ public class LoginPage extends TestBase {
 
     @FindBy(xpath = "//input[@id='continue']")
     private WebElement continueLogin;
+    
+    @FindBy(xpath = "//div[@id='auth-captcha-image-container']")
+    List<WebElement> captchaAuth;    
 
     // Initializing the Page Objects:
     public LoginPage() {
