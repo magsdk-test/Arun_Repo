@@ -40,7 +40,7 @@ public class HomePageTest extends TestBase {
 
 	@Test(priority=2, invocationCount = 1)
 	@Parameters({"email", "password"})
-	public void verifySearchBox(String email, String password){
+	public void verifySearchBox(String email, String password) throws InterruptedException{
 		homePage = new HomePage();
 		searchResultPage = new SearchResultPage();
 		cartPage = new CartPage();
