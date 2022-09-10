@@ -1,6 +1,6 @@
 # Project Title
 
-Amazon Babbel Assignment
+Amazon Auto Demo
 
 
 ## Authors
